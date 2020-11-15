@@ -90,7 +90,8 @@ function main () {
     -i \
     \
     -v "$HOME/WW/Software/WeChat/Data/DoChat/WeChat Files/":'/home/user/WeChat Files/' \
-    -v "$HOME/WW/Software/WeChat/Data/DoChat/Applcation Data":'/home/user/.wine/drive_c/users/user/Application Data/' \
+    -v "$HOME/WW/Software/WeChat/Data/DoChat/Applcation Data/":'/home/user/.wine/drive_c/users/user/Application Data/' \
+    -v "$HOME/WW/Software/WeChat/Share Files/":'/home/user/Share Files/' \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     \
     -e DISPLAY \
